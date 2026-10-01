@@ -1,0 +1,40 @@
+TASK 2 - PHISHING EMAIL ANALYSIS
+
+Sample: Phishing Email 01
+Type: Simulated/Test Email
+
+Sender:
+security-alert@micros0ft-support.example
+
+Subject:
+URGENT: Your Microsoft account will be suspended
+
+Indicators Identified:
+
+1. Sender impersonation
+The sender claims to represent Microsoft but uses a suspicious domain.
+
+2. Typosquatting
+The domain contains "micros0ft", using the number 0 in place of the letter o.
+
+3. Suspicious domain
+The domain does not represent an official Microsoft domain.
+
+4. Urgency
+The email claims that the account will be suspended within 24 hours.
+
+5. Suspicious link
+The email directs the user to:
+http://micros0ft-support.example/verify
+
+6. Credential/account verification request
+The user is instructed to verify the account through an unsolicited link.
+
+7. HTTP connection
+The link uses HTTP rather than HTTPS.
+
+Classification:
+PHISHING
+
+Reason:
+Multiple indicators are present, including sender impersonation, a suspicious/typosquatted domain, urgent language, and an unsolicited account verification link.
